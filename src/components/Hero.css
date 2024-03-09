@@ -1,0 +1,42 @@
+.Hero {
+    background-image: url(images/gym-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-inner {
+    background-color: #000000b0;
+}
+
+.hero-text {
+    position: relative;
+}
+.hero-circle {
+    background-color: var(--secondary-color);
+    aspect-ratio: 1/1;
+    position: absolute;
+    width: 50%;
+    transition: all ease .2s;
+}
+.hero-circle:hover {
+    width: 67.5%;
+}
+
+.hero-text-inner {
+    pointer-events: none;
+    z-index: 2;
+}
+
+.hero-text-inner h1 {
+    font-weight: 800;
+    font-size: 6vw;
+}
+.hero-img {
+    object-position: center;
+    object-fit: cover;
+}
+.hero-img img{
+    filter: grayscale(60%);
+    width: 50%;
+    max-height: 100%;
+}

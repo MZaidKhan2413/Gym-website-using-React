@@ -1,0 +1,8 @@
+.about-text h1 {
+    color: var(--element-color);
+}
+
+.about-img img {
+    width: 60%;
+    box-shadow: 0 0 50px #000;
+}

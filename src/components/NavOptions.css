@@ -1,0 +1,7 @@
+.NavOptions {
+    font-weight: 500;
+    transition: all .2s ease-in;
+}
+.NavOptions:hover {
+    color: var(--element-color);
+}

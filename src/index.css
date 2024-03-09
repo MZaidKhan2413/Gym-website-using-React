@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root {
+  --primary-color: #090909;
+  --secondary-color: #46332E;
+  --element-color: #f51515;
+  --text-color: #fefefe;
+}
+
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+  /* font-family: "Outfit", sans-serif; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+a, button {
+  all: unset;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}

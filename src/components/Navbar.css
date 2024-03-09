@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+.Navbar {
+    padding: 1.5rem 7.5rem;
+    background-color: #10101080;
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    cursor: pointer;
+    color: var(--element-color);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .Navbar {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .Navbar {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
