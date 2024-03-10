@@ -17,6 +17,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding);
 }
 html, body, #root {
   width: 100%;

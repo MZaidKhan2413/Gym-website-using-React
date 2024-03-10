@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: var(--scroll-padding);
 }
 .hero-inner {
     background-color: #000000b0;

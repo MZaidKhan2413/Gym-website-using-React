@@ -1,7 +1,16 @@
+import React, { useEffect, useRef } from "react";
 import "./Navbar.css"
 import NavOptions from "./NavOptions"
 
 export default function Navbar() {
+    const navRef = useRef(null);
+
+  useEffect(() => {
+    if (navRef.current) {
+      const navHeight = navRef.current.offsetHeight;
+      document.documentElement.style.setProperty("--scroll-padding", `${navHeight + 1}px`);
+    }
+  }, []);
 
     const navOptions = [
         {link: "#home", text: "Home"},
@@ -12,7 +21,7 @@ export default function Navbar() {
     ]
 
     return (
-        <nav>
+        <nav ref={navRef}>
             <div className="Navbar d-flex justify-content-between align-items-center w-100">
                 <div className="logo fw-bolder fs-3">EXTREME FITNESS</div>
                 <div className="d-none d-md-flex gap-5 align-items-center">
