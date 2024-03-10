@@ -1,0 +1,22 @@
+.card {
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 4px #000;
+    --bs-card-border-radius: 0;
+    color: var(--text-color);
+}
+.card-img-top {
+    height: 25rem;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(.95);
+    transition: all linear .1s;
+}
+.card-img-top:hover {
+    transform: scale(1);
+}
+.social-icons{
+    transition: all linear .2s;
+}
+.social-icons:hover {
+    color: var(--element-color);
+}

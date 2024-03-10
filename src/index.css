@@ -3,7 +3,7 @@
 
 :root {
   --primary-color: #090909;
-  --secondary-color: #46332E;
+  --secondary-color: #29292a;
   --element-color: #f51515;
   --text-color: #fefefe;
 }
@@ -12,8 +12,8 @@
   margin : 0;
   padding : 0;
   box-sizing: border-box;
-  /* font-family: "Outfit", sans-serif; */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Outfit", sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 html {
   scroll-behavior: smooth;
