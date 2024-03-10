@@ -1,4 +1,4 @@
-import "./Hero.css"
+import "../assets/styles//Hero.css"
 
 export default function Hero() {
     return (

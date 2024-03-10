@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./Navbar.css"
+import "../assets/styles//Navbar.css"
 import NavOptions from "./NavOptions"
 
 export default function Navbar() {

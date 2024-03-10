@@ -1,4 +1,4 @@
-import "./NavOptions.css"
+import "../assets/styles//NavOptions.css"
 
 export default function NavOptions({link, text}) {
     return (

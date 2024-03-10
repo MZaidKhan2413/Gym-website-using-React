@@ -1,5 +1,5 @@
 import TrainerCard from "./TrainerCard"
-import "./TrainerSection.css"
+import "../assets/styles//TrainerSection.css"
 
 export default function TrainerSection() {
 
