@@ -1,0 +1,10 @@
+.price-btn {
+    background-color: var(--element-color);
+    color: var(--text-color);
+    transition: all .2s ease;
+}
+.price-btn:hover {
+    background-color: var(--element-color);
+    border: 1px solid var(--text-color);
+    box-shadow: 0 0 10px var(--element-color);
+}
