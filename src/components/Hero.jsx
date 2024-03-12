@@ -10,9 +10,9 @@ export default function Hero() {
                         <h1 className="">DISCOVER YOUR <br /> STRENGTH!</h1>
                     </div>
                 </div>
-                <div className="hero-img col-12 col-md-6 d-flex justify-content-center align-items-center">
+                {/* <div className="hero-img col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <img src="images/model.png" alt="Model" />
-                </div>
+                </div> */}
             </div>
         </section>
     )

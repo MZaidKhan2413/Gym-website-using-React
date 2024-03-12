@@ -7,6 +7,8 @@ nav {
 
 .Navbar {
     padding: 1.5rem 7.5rem;
+}
+.Navbar.bg {
     background-color: #10101080;
     backdrop-filter: blur(10px);
 }

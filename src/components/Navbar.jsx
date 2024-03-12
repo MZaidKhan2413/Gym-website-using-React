@@ -1,16 +1,28 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../assets/styles//Navbar.css"
 import NavOptions from "./NavOptions"
 
 export default function Navbar() {
     const navRef = useRef(null);
+    let [isScroll, setIsScroll] = useState(false);
 
-  useEffect(() => {
-    if (navRef.current) {
-      const navHeight = navRef.current.offsetHeight;
-      document.documentElement.style.setProperty("--scroll-padding", `${navHeight + 1}px`);
+    const scrollStyle = ()=>{
+        const scrollValue = document.documentElement.scrollTop;
+        if (scrollValue > 100) {
+            setIsScroll(true);
+        } else {
+            setIsScroll(false)
+        }
     }
-  }, []);
+
+    window.addEventListener('scroll', scrollStyle)
+
+    useEffect(() => {
+      if (navRef.current) {
+        const navHeight = navRef.current.offsetHeight;
+        document.documentElement.style.setProperty("--scroll-padding", `${navHeight + 1}px`);
+      }
+    }, []);
 
     const navOptions = [
         {link: "#home", text: "Home"},
@@ -20,9 +32,11 @@ export default function Navbar() {
         {link: "#contact", text: "Contact us"},
     ]
 
+    const navbarStyles = "Navbar d-flex justify-content-between align-items-center w-100"
+
     return (
         <nav ref={navRef}>
-            <div className="Navbar d-flex justify-content-between align-items-center w-100">
+            <div className={isScroll ? navbarStyles + " bg" : navbarStyles}>
                 <div className="logo fw-bolder">EXTREME FITNESS</div>
                 <div className="d-none d-md-flex gap-4 gap-lg-5 align-items-center">
                     {navOptions.map((opt, idx)=>
