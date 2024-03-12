@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <About />
-      <TrainerSection /> */}
+      <TrainerSection />
       <PriceSection />
     </>
   )

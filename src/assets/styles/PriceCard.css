@@ -8,3 +8,19 @@
     border: 1px solid var(--text-color);
     box-shadow: 0 0 10px var(--element-color);
 }
+.plan {
+    background-color: var(--element-color);
+    font-weight: 900;
+}
+.perks {
+    line-height: 4rem;
+}
+.TiTick {
+    color: green;
+    font-size: 1.5em
+}
+.RxCross2 {
+    color: red;
+    font-size: 1.25em;
+    font-weight: 900;
+}
