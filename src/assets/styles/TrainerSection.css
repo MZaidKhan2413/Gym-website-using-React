@@ -1,0 +1,6 @@
+.TrainerSection {
+    min-height: 100%;
+}
+.TrainerSection h1 {
+    color: var(--element-color);
+}

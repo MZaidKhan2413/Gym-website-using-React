@@ -6,9 +6,9 @@ import "../assets/styles/PriceCard.css"
 export default function PriceCard({plan}) {
 
     return (
-        <div className="card mb-3 h-100">
-            <div className="card-inner w-100 h-100 p-3 d-flex flex-column justify-content-between">
-                <h2 className="plan p-1"><CgGym /> {plan.category.toUpperCase()}</h2>
+        <div className="card col mb-3 h-100">
+            <div className="card-inner mw-50 h-100 p-3 d-flex flex-column justify-content-between">
+                <h2 className="plan fs-3 p-1"><CgGym /> {plan.category.toUpperCase()}</h2>
                 <h3 className="text-center fw-bolder pt-1 pb-4">&#8377; {plan.price} /month</h3>
                 <div className="perks h-75 w-100 fs-5">
 

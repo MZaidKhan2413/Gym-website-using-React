@@ -1,7 +1,15 @@
 .NavOptions {
     font-weight: 500;
     transition: all .2s ease-in;
+    font-size: 1rem;
 }
 .NavOptions:hover {
     color: var(--element-color);
+}
+
+@media screen and (max-width: 992px) {
+    .NavOptions {
+        font-size: .8rem;
+        gap: .5rem !important;
+    }
 }

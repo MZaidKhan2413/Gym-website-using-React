@@ -2,7 +2,7 @@ import "../assets/styles/About.css"
 
 export default function About() {
     return (
-        <section className="About h-100" id="about">
+        <section className="About" id="about">
             <div className="about-inner row h-100">
                 <div className="about-text col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
                     <div className="about-text-inner px-5">

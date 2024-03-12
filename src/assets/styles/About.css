@@ -1,3 +1,6 @@
+.About {
+    height: 100%;
+}
 .about-text h1 {
     color: var(--element-color);
 }

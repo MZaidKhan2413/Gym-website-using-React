@@ -1,0 +1,6 @@
+.PriceSection {
+    min-height: 100%;
+}
+.PriceSection h1 {
+    color: var(--element-color);
+}

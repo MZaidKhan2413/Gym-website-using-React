@@ -1,4 +1,5 @@
 import TrainerCard from "./TrainerCard"
+import "../assets/styles/TrainerSection.css"
 
 export default function TrainerSection() {
 
@@ -9,9 +10,9 @@ export default function TrainerSection() {
     ]
 
     return (
-        <section className="TrainerSection h-100" id="trainers">
-            <h1 className="text-center p-4">Our Trainers</h1>
-            <div className="trainer-cards row d-flex flex-wrap justify-content-between px-4 px-md-5 w-100">
+        <section className="TrainerSection" id="trainers">
+            <h1 className="text-center pb-4 pt-0 fw-bolder">OUR TRAINERS</h1>
+            <div className="trainer-cards row justify-content-around px-4 px-sm-0 w-100">
                 {trainers.map((t, idx)=>(
                     <TrainerCard trainer={t} key={idx} />
                 ))}

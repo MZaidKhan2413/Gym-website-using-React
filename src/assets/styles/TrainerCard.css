@@ -3,6 +3,7 @@
     box-shadow: 0 0 4px #000;
     --bs-card-border-radius: 0;
     color: var(--text-color);
+    min-width: 18rem;
 }
 .card-img-top {
     height: 25rem;
@@ -10,9 +11,11 @@
     object-position: center;
     transform: scale(.95);
     transition: all linear .1s;
+    filter: grayscale(75%);
 }
 .card-img-top:hover {
     transform: scale(1);
+    filter: grayscale(0);
 }
 .social-icons{
     transition: all linear .2s;
