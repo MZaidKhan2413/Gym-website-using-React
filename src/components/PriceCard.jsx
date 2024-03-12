@@ -23,7 +23,7 @@ export default function PriceCard({plan}) {
                         Olympic Weightlifting
                     </li>
                 </div>
-                <button className="price-btn btn align-self-center mt-2">Apply</button>
+                <button className="price-btn btn align-self-center mt-2">Buy Now</button>
             </div>
         </div>
     )

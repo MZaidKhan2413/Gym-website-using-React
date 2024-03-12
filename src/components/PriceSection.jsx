@@ -1,4 +1,3 @@
-import "../assets/styles/PriceSection.css"
 import PriceCard from "./PriceCard"
 
 export default function PriceSection() {
